@@ -2,7 +2,8 @@
 
 Using
 
-- [Locomotive](http://www.locomotive.org) 
-- [Mongoose](http://www.mongoose.org)
+- [Locomotive](http://www.locomotivejs.org) 
+- [Mongoose](http://www.mongoosejs.org)
 - [Boostrap](http://www.getbootstrap.com)
+- [Passport](http://passportjs.org/)
 - Some config files (See inside the config folder)
