@@ -34,4 +34,8 @@ module.exports = function routes() {
     this.match('login', "login#login", { via: 'get' });
     this.match('logout', "login#logout");
     this.match('login', 'login#loginUser', { via: 'post' });
+    
+    this.match('/auth/facebook', passport.authenticate('facebook'), {via: 'get'});
+    this.match('/auth/facebook/callback', passport.authenticate('facebook', { successRedirect: '/',
+                                      failureRedirect: '/login' }));
 }
